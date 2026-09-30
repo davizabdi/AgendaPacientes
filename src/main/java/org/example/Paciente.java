@@ -61,6 +61,22 @@ public class Paciente {
         this.direita = direita;
     }
 
+    public void setCpf(long cpf) {
+        this.cpf = cpf;
+    }
+
+    public void setNomeCompleto(String nomeCompleto) {
+        this.nomeCompleto = nomeCompleto;
+    }
+
+    public void setCartaoSus(String cartaoSus) {
+        this.cartaoSus = cartaoSus;
+    }
+
+    public void setTipoAtendimento(String tipoAtendimento) {
+        this.tipoAtendimento = tipoAtendimento;
+    }
+
     public void exibirDados() {
         System.out.println("CPF: " + cpf);
         System.out.println("Nome: " + nomeCompleto);
