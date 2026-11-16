@@ -1,4 +1,4 @@
-package org.example;
+package arvoreBst;
 
 import java.util.LinkedList;
 import java.util.Queue;
